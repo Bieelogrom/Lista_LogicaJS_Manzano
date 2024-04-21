@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Zen+Tokyo+Zoo&display=swap');
+
+*{
+    font-family: "Roboto Mono", monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html{
+    margin: 0;
+    height: 100%;
+    background: url(fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner{
+    width: 500px;
+    height: 500px;
+    background: #2D82B7;
+    border-radius: 15px;
+}
+
+.header-sumario{
+    height: 12%;
+    background: #07004D;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-sumario-txt{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.header-sumario-txtzinho{
+    color: #fff;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.corpo-sumario{
+    height: 88%;
+    overflow:auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 7.5px;
+}
+
+.btn{
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    background: #F3DFBF;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: #fff;
+    color: black;
+}
+
+
+@media only screen and (max-width: 850px) {
+
+    #main{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .conteiner{
+        width: 100%;
+        height: 100%;
+        background: #204E4A;
+        border-radius: 15px;
+    }
+
+    .btn{
+        border-radius: 10px;
+        width: 100%;
+        padding: 20px;
+        background: #ECBA82;
+        border: none;
+        color: #fff;
+        font-weight: 500;
+    }
+}
