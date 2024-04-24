@@ -1,30 +1,30 @@
-function vinteCinco(){
+function vinteCinco() {
     window.location.href = "Views/25AB.html"
 }
 
-function vinteCinco_7A(){
+function vinteCinco_7A() {
     let temperatura_celcius = parseFloat(prompt("Digite a temperatura em celsius: "))
-    let temperatura_fahrenheit = (9 * temperatura_celcius + 160)/5
+    let temperatura_fahrenheit = (9 * temperatura_celcius + 160) / 5
 
     alert(`temperatura em celcius: ${temperatura_celcius}\ntemperatura em fahrenheit: ${temperatura_fahrenheit}`)
 }
 
-function vinteCinco_7B(){
+function vinteCinco_7B() {
     let temperatura_fahrenheit = parseFloat(prompt("Digite a temperatura em fahrenheit: "))
-    let temperatura_celcius = (temperatura_fahrenheit - 32)*(5/9)
+    let temperatura_celcius = (temperatura_fahrenheit - 32) * (5 / 9)
 
     alert(`temperatura em fahrenheit: ${temperatura_fahrenheit}\ntemperatura em celcius: ${temperatura_celcius}`)
 }
 
-function vinteCinco_7C(){
+function vinteCinco_7C() {
     let raio = parseFloat(prompt("Digite o valor do raio:"))
     let altura = parseFloat(prompt("Digite o valor da altura:"))
-    let volume = Math.PI * raio**2 * altura
+    let volume = Math.PI * raio ** 2 * altura
 
     alert(`Volume = ${volume.toFixed(1)}`)
 }
 
-function vinteCinco_7D(){
+function vinteCinco_7D() {
     let tempo = parseFloat(prompt("Digite o tempo gasto: "))
     let velocidade = parseFloat(prompt("Digite a velocidade: "))
     let distancia = tempo * velocidade
@@ -33,15 +33,15 @@ function vinteCinco_7D(){
     alert(`Velocidade média : ${velocidade}\nTempo gasto : ${tempo}\nDistancia percorrida : ${distancia}\nLitros usados : ${litros_usados}`)
 }
 
-function vinteCinco_7E(){
+function vinteCinco_7E() {
     let valor = parseFloat(prompt("Digite o valor: "))
     let taxa = parseFloat(prompt("Digite a taxa: "))
     let tempo = parseFloat(prompt("Digite o tempo: "))
-    let prestacao = valor + (valor * taxa/100) * tempo
+    let prestacao = valor + (valor * taxa / 100) * tempo
     alert(`Você deve pagar : ${prestacao}R$`)
 }
 
-function vinteCinco_7F(){
+function vinteCinco_7F() {
     let A = prompt("Digite o valor de A: ")
     let B = prompt("Digite o valor de B: ")
 
@@ -53,22 +53,22 @@ function vinteCinco_7F(){
 
 }
 
-function vinteCinco_7G(){
+function vinteCinco_7G() {
     let A = parseInt(prompt("Digite o valor de A: "))
     let B = parseInt(prompt("Digite o valor de B: "))
     let C = parseInt(prompt("Digite o valor de C: "))
     let D = parseInt(prompt("Digite o valor de D: "))
 
     alert(`Soma de A com B: ${A + B}\nSoma de A com C: ${A + C}\nSoma de A com D: ${A + D}\nMultiplicação de A com B: ${A * B}\nMultiplicação de A com C: ${A * C}\nMultiplicação de A com D: ${A * D}`)
-    
+
     alert(`Soma de B com A: ${B + A}\nSoma de B com C: ${B + C}\nSoma de B com D: ${B + D}\nMultiplicação de B com A: ${B * A}\nMultiplicação de B com C: ${B * C}\nMultiplicação de B com D: ${B * C}`)
-    
+
     alert(`Soma de C com A: ${C + A}\nSoma de C com B: ${C + B}\nSoma de C com D: ${C + C}\nMultiplicação de C com A: ${C * A}\nMultiplicação de C com B: ${C * B}\nMultiplicação de C com D: ${C * D}`)
 
     alert(`Soma de D com A: ${D + A}\nSoma de D com B: ${D + B}\nSoma de D com C: ${D + C}\nMultiplicação de D com A: ${D * A}\nMultiplicação de D com B: ${D * B}\nMultiplicação de D com C: ${D * C}`)
 }
 
-function vinteCinco_7H(){
+function vinteCinco_7H() {
     let comprimeto = parseFloat(prompt("Digite o valor do comprimento: "))
     let largura = parseFloat(prompt("Digite o valor da largura: "))
     let altura = parseFloat(prompt("Digite o valor da altura: "))
@@ -76,43 +76,43 @@ function vinteCinco_7H(){
     alert(`Volume = ${volume}`)
 }
 
-function vinteCinco_7I(){
+function vinteCinco_7I() {
     let A = parseInt(prompt("Digite o primeiro valor: "))
     let B = parseInt(prompt("Digite o segundo valor: "))
     let diferenca = A - B
 
-    alert(`${A} - ${B} = ${diferenca}\nDiferença ao quadrado : ${diferenca*diferenca}`)
+    alert(`${A} - ${B} = ${diferenca}\nDiferença ao quadrado : ${diferenca * diferenca}`)
 }
 
-function vinteCinco_7J(){
+function vinteCinco_7J() {
     let valor_em_dolar = parseFloat(prompt("Digite o valor em dolar:"))
     let cotação_dolar = parseFloat(prompt("Digite o valor da cotação do dolar:"))
 
     alert(`Você tem ${valor_em_dolar * cotação_dolar}R$ convertidos do dolar.`)
 }
 
-function vinteCinco_7K(){
+function vinteCinco_7K() {
     let valor_em_reais = parseFloat(prompt("Digite o valor em reais:"))
     let cotação_real = parseFloat(prompt("Digite o valor da cotação do real:"))
 
     alert(`Você tem ${valor_em_reais * cotação_real}$ convertidos do real.`)
 }
 
-function vinteCinco_7L(){
+function vinteCinco_7L() {
     let A = parseInt(prompt("Digite o valor de A:"))
     let B = parseInt(prompt("Digite o valor de B:"))
     let C = parseInt(prompt("Digite o valor de B:"))
     alert(`Resultado : ${(A ** 2) + (B ** 2) + (C ** 2)}`)
 }
 
-function vinteCinco_7M(){
+function vinteCinco_7M() {
     let A = parseInt(prompt("Digite o valor de A:"))
     let B = parseInt(prompt("Digite o valor de B:"))
     let C = parseInt(prompt("Digite o valor de B:"))
     alert(`Resultado : ${(A + B + C) ** 2}`)
 }
 
-function vinteCinco_310A(){
+function vinteCinco_310A() {
     let a = parseInt(prompt("Digite o valor de A: "))
     let b = parseInt(prompt("Digite o valor de B: "))
     let c = parseInt(prompt("Digite o valor de C: "))
@@ -124,26 +124,26 @@ function vinteCinco_310A(){
     alert(`Produto de A com C = ${p}\nSoma de B com D = ${s}`)
 }
 
-function vinteCinco_310B(){
+function vinteCinco_310B() {
     let SM = parseFloat(prompt("Digite quanto você recebe por mês: "))
     let PR = parseFloat(prompt("Digite o percentual de reajuste do salário: "))
 
-    let NS = SM + ((PR/100) * SM)
+    let NS = SM + ((PR / 100) * SM)
 
     alert(`Seu saláro mensal: ${SM}R$\nPercentual de reajuste do salário: ${PR}%\nSalário após reajuste: ${NS}R$`)
 }
 
-function vinteCinco_310C(){
+function vinteCinco_310C() {
     let votos_validos = parseInt(prompt("Digite a quantidade de votos válidos: "))
     let votos_nulos = parseInt(prompt("Digite a quantidade de votos válidos: "))
     let votos_brancos = parseInt(prompt("Digite a quantidade de votos válidos: "))
 
     let quantidade_total_votos = votos_brancos + votos_nulos + votos_validos
 
-    alert(`Total de votos : ${quantidade_total_votos}\nVotos validos : ${(votos_validos/100) * quantidade_total_votos}%\nVotos nulos : ${(votos_nulos/100) * quantidade_total_votos}%\nVotos brancos : ${(votos_brancos / 100) * quantidade_total_votos}%`)
+    alert(`Total de votos : ${quantidade_total_votos}\nVotos validos : ${(votos_validos / 100) * quantidade_total_votos}%\nVotos nulos : ${(votos_nulos / 100) * quantidade_total_votos}%\nVotos brancos : ${(votos_brancos / 100) * quantidade_total_votos}%`)
 }
 
-function quarentaUm_4A(){
+function quarentaUm_4A() {
     let valor_um = parseInt(prompt("Digite o primeiro valor: "))
     let valor_dois = parseInt(prompt("Digite o segundo valor: "))
 
@@ -152,13 +152,13 @@ function quarentaUm_4A(){
     alert(resposta)
 }
 
-function quarentaUm_4B(){
+function quarentaUm_4B() {
     let valor = parseFloat(prompt("Digite o valor desejado: "))
-    let resposta = (valor < 0) ? `O módulo de ${valor} é ${valor * -1}`: `O módulo de ${valor} é ${valor * -1}`
+    let resposta = (valor < 0) ? `O módulo de ${valor} é ${valor * -1}` : `O módulo de ${valor} é ${valor * -1}`
     alert(resposta)
 }
 
-function quarentaUm_4C(){
+function quarentaUm_4C() {
     let nota1 = parseFloat(prompt("Digite a primeira nota: "))
     let nota2 = parseFloat(prompt("Digite a segunda nota: "))
     let nota3 = parseFloat(prompt("Digite a terceira nota: "))
@@ -168,93 +168,93 @@ function quarentaUm_4C(){
     alert(resposta)
 }
 
-function quarentaUm_4D(){
+function quarentaUm_4D() {
     let nota1 = parseFloat(prompt("Digite a primeira nota: "))
     let nota2 = parseFloat(prompt("Digite a segunda nota: "))
     let nota3 = parseFloat(prompt("Digite a terceira nota: "))
     let nota4 = parseFloat(prompt("Digite a quarta nota: "))
     let media = (nota1 + nota2 + nota3 + nota4) / 4
 
-    if(media >= 7){
+    if (media >= 7) {
         alert(`Você foi aprovado!\nSua média final : ${media}`)
-    }else{  
+    } else {
         let nota_exame = parseFloat(prompt("Recuperação!\nDigite a nota do exame:"))
         let nova_media = (nota_exame + media) / 2
-        if(nova_media >= 5){
+        if (nova_media >= 5) {
             alert(`Você foi aprovado no exame!\nSua média final : ${nova_media}`)
-        }else{
+        } else {
             alert(`Você foi reprovado no exame!\nSua média final : ${nova_media}`)
         }
     }
 }
 
-function quarentaUm_4E(){
+function quarentaUm_4E() {
     var valorA = parseFloat(prompt("Digite o valor de A:"));
     var valorB = parseFloat(prompt("Digite o valor de B:"));
     var valorC = parseFloat(prompt("Digite o valor de C:"));
 
-        if (valorA === 0) {
-            console.log("A variável 'a' deve ser diferente de zero.");
-            return;
-        }
-    
-        var delta = valorB * valorB - 4 * valorA * valorC;
+    if (valorA === 0) {
+        console.log("A variável 'a' deve ser diferente de zero.");
+        return;
+    }
 
-        if (delta < 0) {
-            console.log("Não há raízes reais para os valores informados.");
-            return;
-        }
-    
-        var x1 = (-valorB + Math.sqrt(delta)) / (2 * valorA);
-        var x2 = (-valorB - Math.sqrt(delta)) / (2 * valorA);
-    
-        console.log("As raízes da equação são:");
-        console.log("x1 =", x1);
-        console.log("x2 =", x2);
+    var delta = valorB * valorB - 4 * valorA * valorC;
+
+    if (delta < 0) {
+        console.log("Não há raízes reais para os valores informados.");
+        return;
+    }
+
+    var x1 = (-valorB + Math.sqrt(delta)) / (2 * valorA);
+    var x2 = (-valorB - Math.sqrt(delta)) / (2 * valorA);
+
+    console.log("As raízes da equação são:");
+    console.log("x1 =", x1);
+    console.log("x2 =", x2);
 }
 
-function quarentaUm_4F(){
+function quarentaUm_4F() {
     let A = parseInt(prompt("Digite o valor de A"))
     let B = parseInt(prompt("Digite o valor de B"))
     let C = parseInt(prompt("Digite o valor de C"))
 
-    if(A > B && A > C){
-        if(B > C){
+    if (A > B && A > C) {
+        if (B > C) {
             alert(`${C}, ${B}, ${A}`)
-        }else{
+        } else {
             alert(`${B}, ${C}, ${A}`)
         }
-    }else if(B > A && B > C){
-        if(A > C){
+    } else if (B > A && B > C) {
+        if (A > C) {
             alert(`${C}, ${A}, ${B}`)
-        }else{
+        } else {
             alert(`${A}, ${C}, ${B}`)
         }
-    }else{
-        if(B > A){
+    } else {
+        if (B > A) {
             alert(`${A}, ${B}, ${C}`)
-        }else{
+        } else {
             alert(`${B}, ${A}, ${C}`)
         }
     }
 }
 
-function quarentaUm_4G(){
+function quarentaUm_4G() {
     let valor = parseInt(prompt("Digite o valor: "))
 
-    if((valor % 3) == 0){
+    if ((valor % 3) == 0) {
         alert(`${valor} divide por três!`)
-    }else if((valor % 2) == 0){
+    } else if ((valor % 2) == 0) {
         alert(`${valor} divide por dois!`)
-    }else{
+    } else {
         alert(`${valor} não divide por nenhum dos dois!`)
     }
 }
 
-function quarentaUm_4H(){
+function quarentaUm_4H() {
     let valores = []
 
-    for(let i = 0; i < 5; i++){
+    for (let i = 0; i < 5; i++) {
         let numero = parseInt(prompt("digite o valor: "))
         valores.push(numero)
     }
@@ -262,48 +262,146 @@ function quarentaUm_4H(){
     let maior = valores[0]
     let menor = valores[0]
 
-    for(let contador = 1; contador < valores.length; contador++){
-        if(valores[contador] > maior){
+    for (let contador = 1; contador < valores.length; contador++) {
+        if (valores[contador] > maior) {
             maior = valores[contador]
         }
-        if(valores[contador] < menor){
+        if (valores[contador] < menor) {
             menor = valores[contador]
         }
     }
 
     alert(`menor valor = ${menor}\nMaior valor = ${maior}`)
-  
+
 }
 
-function quarentaUm_4I(){
+function quarentaUm_4I() {
     let valor = parseInt(prompt("Digite o valor: "))
 
-    if((valor % 2) == 0){
+    if ((valor % 2) == 0) {
         alert("Valor é par")
-    }else{
+    } else {
         alert("Valor é impar")
     }
 }
 
-function quarentaUm_4J(){
+function quarentaUm_4J() {
     let valor = parseInt(prompt("Digite o valor: "))
     let resposta = (valor > 1 && valor < 9) ? "O valor está na faixa permitida!" : "O valor está fora da faixa permitida!"
     alert(resposta)
 }
 
-function quarentaUm_4K(){
+function quarentaUm_4K() {
     let valor = parseInt(prompt("Digite o valor"))
     let resposta = (valor > 3) ? `ERRO` : `${valor}`
     alert(resposta)
 }
 
-function quarentaUm_4L(){
+function quarentaUm_4L() {
     let nome = prompt("Digite o nome: ")
     let sexo = prompt("Digite o seu sexo\nM - Masculino ou F - Feminino")
 
-    if(sexo == "M" || sexo == "m"){
+    if (sexo == "M" || sexo == "m") {
         alert(`Llmo Sr. ${nome}`)
-    }else if(sexo == "F" || sexo == "f"){
+    } else if (sexo == "F" || sexo == "f") {
         alert(`Llmo Sra. ${nome}`)
     }
+}
+
+function cinquenta_1A() {
+    alert("Código rodando no console!")
+    let valor = 15;
+
+    do {
+        console.log(`${valor}`)
+        valor++
+    } while (valor <= 200)
+}
+
+function cinquenta_1B() {
+    alert("Código rodando no console!")
+    let valor = 1;
+    let somatoria = 0;
+
+    do {
+        valor++
+        if ((valor % 2) == 0) {
+            somatoria = somatoria + valor
+            console.log(somatoria)
+        } else {
+            console.log(valor)
+        }
+    } while (valor <= 500)
+}
+
+function cinquenta_1C() {
+    alert("Código rodando no console!")
+    let valor = 1;
+
+    do {
+        valor++
+        if ((valor % 4) == 0) {
+            console.log(`${valor}`)
+        } else {
+            console.log("---")
+        }
+    } while (valor <= 200)
+}
+
+function cinquenta_1D() {
+    alert("Código rodando no console!")
+    let contadora = 1
+    let somatoria = 0
+
+
+    do {
+        console.log(contadora)
+        somatoria += contadora
+        contadora *= 2
+    } while (contadora <= 64)
+
+    console.log(`Somatória final : ${somatoria}`)
+}
+
+function cinquenta_1E() {
+    alert("Código rodando no console!")
+    let valores = []
+    let fatorial = 0
+    let contadora = 1;
+    let valor = 1;
+
+    do {
+        valor = parseInt(prompt("Digite o valor"))
+        valores.push(valor)
+        fatorial *= valores[contadora]
+        contadora++
+    } while (valores.length < 15 && valor <= contadora)
+
+
+}
+
+function cinquenta_1F() {
+    alert("Código rodando no console!")
+    let contadora = 0;
+    let valores = [];
+    let somatoria = 0;
+    let media;
+    let valor;
+
+    do {
+        valor = parseInt(prompt(`Digite o valor do indice : ${contadora}`))
+        valores.push(valor)
+        somatoria += valores[contadora]
+        contadora++
+    } while (valor > 0)
+
+
+    //do while roda o código mais uma vez antes de fazer a verificação
+    media = somatoria / (valores.length - 1)
+
+    console.log(`Somatória dos valores : ${somatoria}\nMedia aritmética : ${media}\nQuantidade de valores lidos : ${valores.length}`)
+}
+
+function cinquenta_1G() {
+
 }
